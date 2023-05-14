@@ -2,6 +2,8 @@ import { gql, useMutation, useQuery } from "@apollo/client";
 import Link from "next/link";
 import { useState } from "react";
 import { slot } from "../reservadas";
+//Esta parte de la práctica se haría con cliente ya que sería necesario hacer peticiones
+// al cliente a la hora de introducir el año el mes el dia  la hora y el dni para reservar una cita disponible
 
 const Reservar = () => {
 const [year,setYear] = useState<number>(0);

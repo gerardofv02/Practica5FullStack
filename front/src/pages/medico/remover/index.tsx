@@ -3,7 +3,8 @@ import { gql, useMutation, useQuery } from "@apollo/client";
 import Link from "next/link";
 import { useState } from "react";
 
-
+//Esta parte de la práctica se haría con cliente ya que sería necesario hacer peticiones
+// al cliente a la hora de introducir el año el mes el dia y la hora para eliminar una cita
 
 const Remover = () => {
     const [year,setYear] = useState<number>(0);
